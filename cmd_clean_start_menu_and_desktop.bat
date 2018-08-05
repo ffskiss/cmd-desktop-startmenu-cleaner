@@ -60,7 +60,6 @@ move "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Affinity D
 move "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Affinity Photo Trial.lnk" "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Graphics\Affinity Photo.lnk"
 xcopy /e /y "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\IrfanView" "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Graphics\IrfanView\"
 
-
 REM OFFICE
 move "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\PDFCreator\PDFCreator.lnk" "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Office\"
 xcopy /e /y "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\LibreOffice 5.4" "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Office\LibreOffice 5.4\"
@@ -134,8 +133,6 @@ move "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\adbLink.ln
 move "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\WinSCP.lnk" "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Administration\Utilities\"
 move ""%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\SyncBack Free.lnk" "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Administration\Utilities\"
 move "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\2BrightSparks\SyncBackPro x64\SyncBack Pro.lnk" "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Administration\Utilities\"
-
-
 
 REM Security
 move "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Malwarebytes\Malwarebytes.lnk" "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Administration\Security\"
@@ -250,8 +247,7 @@ rmdir /s /q "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
 rmdir /s /q "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\WiiU_USB_Helper\
 rmdir /s /q "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\WPS Office\
 
-
-REM DELETE USERS DESKTOP
+REM DELETE ALL DESKTOP
 del "%SYSTEMDRIVE%\Users\Public\Desktop\Avast Free Antivirus.lnk"
 del "%SYSTEMDRIVE%\Users\Public\Desktop\COMODO Firewall.lnk"
 del "%SYSTEMDRIVE%\Users\Public\Desktop\FileZilla.lnk"
@@ -305,8 +301,7 @@ del "%SYSTEMDRIVE%\Users\Public\Desktop\Oracle VM VirtualBox.lnk"
 del "%SYSTEMDRIVE%\Users\Public\Desktop\Kaspersky Total Security.lnk"
 del "%SYSTEMDRIVE%\Users\Public\Desktop\Battle.net.lnk"
 
-
-REM DELETE ALL DESKTOP
+REM DELETE USERS DESKTOP
 del "%USERPROFILE%\Desktop\Auslogics DiskDefrag.lnk"
 del "%USERPROFILE%\Desktop\Microsoft OneDrive.lnk"
 del "%USERPROFILE%\Desktop\Revo Uninstaller.lnk"
@@ -322,4 +317,7 @@ del "%USERPROFILE%\Desktop\Macrium Reflect.lnk"
 del "%USERPROFILE%\Desktop\WPS Presentation.lnk"
 del "%USERPROFILE%\Desktop\WPS Spreadsheets.lnk"
 del "%USERPROFILE%\Desktop\WPS Writer.lnk"
+del "%USERPROFILE%\Desktop\GitHub Desktop.lnk"
+del "%USERPROFILE%\Desktop\Nox.lnk"
+del "%USERPROFILE%\Desktop\Multi-Drive.lnk"
 exit
