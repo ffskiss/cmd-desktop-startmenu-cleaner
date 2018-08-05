@@ -113,6 +113,7 @@ move "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Revo Unins
 move "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Speccy\Speccy.lnk" "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Administration\System Tools\"
 move "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\SpeedFan\SpeedFan.lnk" "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Administration\System Tools\"
 move "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Macrium\Reflect\Macrium Reflect.lnk" "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Administration\System Tools\"
+move "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Advanced SystemCare\Advanced SystemCare 11.lnk" "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Administration\System Tools\"
 
 REM Utilities
 move "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\7-Zip\7-Zip File Manager.lnk" "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Administration\Utilities\"
@@ -227,6 +228,7 @@ rmdir /s /q "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Wor
 rmdir /s /q "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Intel\"
 rmdir /s /q "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Dolphin\"
 rmdir /s /q "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\UtechSmart 16400DPI VENUS Gaming Mouse\"
+rmdir /s /q "%SYSTEMDRIVE%\ProgramData\Microsoft\Windows\Start Menu\Programs\Advanced SystemCare\"
 
 REM REMOVE FOLDERS CURRENT USER
 rmdir /s /q "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories\"
@@ -300,6 +302,7 @@ del "%SYSTEMDRIVE%\Users\Public\Desktop\Safe Money.lnk"
 del "%SYSTEMDRIVE%\Users\Public\Desktop\Oracle VM VirtualBox.lnk"
 del "%SYSTEMDRIVE%\Users\Public\Desktop\Kaspersky Total Security.lnk"
 del "%SYSTEMDRIVE%\Users\Public\Desktop\Battle.net.lnk"
+del "%SYSTEMDRIVE%\Users\Public\Desktop\Advanced SystemCare 11.lnk"
 
 REM DELETE USERS DESKTOP
 del "%USERPROFILE%\Desktop\Auslogics DiskDefrag.lnk"
