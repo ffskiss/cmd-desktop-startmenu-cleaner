@@ -323,4 +323,9 @@ del "%USERPROFILE%\Desktop\WPS Writer.lnk"
 del "%USERPROFILE%\Desktop\GitHub Desktop.lnk"
 del "%USERPROFILE%\Desktop\Nox.lnk"
 del "%USERPROFILE%\Desktop\Multi-Drive.lnk"
+
+REM DELETE USER TASKBAR
+del "%AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Advanced SystemCare 11.lnk"
+del "%AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Driver Booster.lnk"
+
 exit
